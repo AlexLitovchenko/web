@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 class="text-md-center"> Поздравляем! {{Person.Name}}{{Person.LastName}} </h1>
+      <h1 class="text-md-center"> Поздравляем! {{Person.Name}}  {{Person.LastName}} </h1>
             <v-img
                  :aspect-ratio="16/9"
                  :width="width"
