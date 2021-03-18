@@ -3,15 +3,15 @@
         <v-stepper v-model="numStep">
             <v-stepper-header>
                 <v-stepper-step :complete="numStep > 1" step="1">
-                     Назовись
+                     Вход в аккаунт
                 </v-stepper-step>
                  <v-divider></v-divider>
                 <v-stepper-step :complete="numStep > 2" step="2">
-                    Насладись
+                    Данные пользователя
                 </v-stepper-step>
                  <v-divider></v-divider>
                 <v-stepper-step :complete="numStep > 3" step="3">
-                    Пока
+                    Все готово
                 </v-stepper-step>
                 
                 
