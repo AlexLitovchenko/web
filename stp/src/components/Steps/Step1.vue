@@ -14,7 +14,11 @@
                 label="Password"
                 placeholder="">
             </v-text-field>
-            <v-btn @click="Accept()">Вход</v-btn>
+            <v-btn 
+                    class="ml-2 mt-5"
+                    outlined
+                    rounded
+                    small @click="Accept()">Вход</v-btn>
             
     </div>
 </template>

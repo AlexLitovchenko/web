@@ -29,7 +29,12 @@
                 label="Хобби"
                 placeholder="">
             </v-text-field>
-            <v-btn @click="Accept()">Далее</v-btn>
+            <v-btn 
+                    class="ml-2 mt-5"
+                    outlined
+                    rounded
+                    small
+                    @click="Accept()">Далее</v-btn>
             
     </div>
 </template>
