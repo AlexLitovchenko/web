@@ -18,21 +18,33 @@
             </v-stepper-header>
             <v-stepper-items>
                 <v-stepper-content step="1">
-                    <v-card  class="card"
+                    <v-card  
+                              
+                                class="card"
                         elevation="15"
+                        color="#1F7087"
+                        
+                         dark
                          loading>
                         <Step1  @Accept="next"/>
                     </v-card>
                 </v-stepper-content>
                 <v-stepper-content step="2">
-                    <v-card  class="card"
+                    <v-card 
+                    color="#1F7087"
+                    dark
+                     class="card"
+                     
                         elevation="15"
                          loading>
                         <Step2  @Accept="AcceptName"/>
                     </v-card>
                 </v-stepper-content>
                 <v-stepper-content step="3">
-                    <v-card  class="card"
+                    <v-card  
+                    color="#1F7087"
+                    dark
+                    class="card"
                         elevation="15"
                          loading>
                         <Step3  :Person="Person"/>
