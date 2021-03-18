@@ -51,10 +51,8 @@ export default {
     width: 50%;
 }
 .Error{
-    color: rgb(255, 0, 0);
+    color: rgb(163, 217, 233);
 }
-#fon{
-    background-color: blueviolet;
-}
+
 
 </style>

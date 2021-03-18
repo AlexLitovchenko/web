@@ -12,7 +12,7 @@
                     outlined
                     rounded
                     small
-                    @click="Accept()">Далее</v-btn>
+                    @click="Accept()">Готово</v-btn>
     </div>
     
 </template>

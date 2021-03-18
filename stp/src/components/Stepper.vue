@@ -99,7 +99,5 @@ export default {
     margin: 5% 10%;
     padding: 5% ;
 }
-#fon{
-    background-color: blueviolet;
-}
+
 </style>
