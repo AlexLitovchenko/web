@@ -19,19 +19,19 @@
             <v-stepper-items>
                 <v-stepper-content step="1">
                     <v-card  class="card"
-                        elevation="10">
+                        elevation="15">
                         <Step1  @Accept="next"/>
                     </v-card>
                 </v-stepper-content>
                 <v-stepper-content step="2">
                     <v-card  class="card"
-                        elevation="10">
+                        elevation="15">
                         <Step2  @Accept="AcceptName"/>
                     </v-card>
                 </v-stepper-content>
                 <v-stepper-content step="3">
                     <v-card  class="card"
-                        elevation="10">
+                        elevation="15">
                         <Step3  :Person="Person"/>
                     </v-card>
                 </v-stepper-content>
