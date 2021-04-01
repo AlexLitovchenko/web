@@ -2,11 +2,11 @@
 <div>
      <h1>Отзыв </h1>  
         <img  src="https://bipbap.ru/wp-content/uploads/2017/10/0_8eb56_842bba74_XL-640x400.jpg" width='50%' height='70%' >
-     <v-card-text class="vInput"> Имя:{{Name}} </v-card-text>
+     <v-card-text   class="vInput"> Имя:{{Name}} </v-card-text>
     
      <v-card-text class="vInput">Фамилия:{{Lastname}} </v-card-text>   
   
-     <v-card-text class="vInput">Отзыв:{{ Information}}  </v-card-text>
+     <v-card-text  class="vInput">Отзыв:{{ Information}}  </v-card-text>
      
 </div>    
 </template>

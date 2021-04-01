@@ -33,7 +33,14 @@
 </template>
 <script>
 export default {
-   
+    data: function(){
+        return{
+            Name:"",
+            LastName:"",
+            Information : "",
+            Error: ""
+        }
+     },
 
     methods:{
         Accept: function(){
