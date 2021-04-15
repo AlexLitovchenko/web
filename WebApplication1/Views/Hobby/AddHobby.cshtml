@@ -1,0 +1,25 @@
+﻿@model WebApplication1.Manager.Hobbys.CreateHobby
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddHobby</title>
+</head>
+<body>
+    @using (Html.BeginForm("create", "Hobby", FormMethod.Post))
+    {
+
+    <lable> Hobby: </lable>
+        <input id="hobby" type="text" name="hobby" /><br /><br />
+        <input type="submit" value="add student" />
+
+    }
+    @Html.ActionLink("Nazad", "ShowHobby")
+</body>
+</html>
+

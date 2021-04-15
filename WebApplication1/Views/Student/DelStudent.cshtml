@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Storege.Entity.Student
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DelStudent</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Del", "Student", FormMethod.Post))
+        {
+            <input id="StudentId" name="StudentId" type="hidden" value="@Model.Id" />
+            <lable> Student: </lable>
+            <input id="Name" type="text" name="Name" value="@Model.Name" /><br /><br />
+            <input type="submit" value="del" />
+        }
+        @Html.ActionLink("Nazad", "ShowStudent", "Student")
+
+    </div>
+</body>
+</html>

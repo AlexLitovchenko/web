@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebApplication1.Storege.Entity.Hobby>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowHobby</title>
+</head>
+<body>
+    <h1>Hobby of Students</h1>
+    <div>
+        @foreach (var item in Model)
+        {
+            <label>Hobby</label>
+
+            @item.hobby
+            <a href="/Hobby/UpdateHobby/@item.Id">Update</a>
+            <a href="/Hobby/DelHobby/@item.Id">Del</a>
+            <br />
+        }
+        @using (Html.BeginForm("AddHobby", "Hobby"))
+        {
+            <div>
+                <input type="submit" value="add" />
+            </div>
+        }
+        @Html.ActionLink("Student", "ShowStudent", "Student")
+
+    </div>
+
+</body>
+</html>

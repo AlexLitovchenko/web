@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Storege.Entity.Rating
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateRating</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Update", "Rating", FormMethod.Post))
+        {
+            <input id="StudentId" name="StudentId" type="hidden" value="@Model.Id" />
+            <lable> Student: </lable>
+            <input id="Result" type="text" name="Result" value="@Model.Result" /><br /><br />
+            <input type="submit" value="Up" />
+        }
+        @Html.ActionLink("Nazad", "ShowRating", "Rating")
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿@model WebApplication1.Manager.Groups.CreateGroup
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddStudent</title>
+</head>
+<body>
+    @using (Html.BeginForm("create", "Group", FormMethod.Post))
+    {
+
+        <lable> Group: </lable>
+        <input id="Number" type="text" name="Number" /><br /><br />
+        <input type="submit" value="add group" />
+
+    }
+    @Html.ActionLink("Grups", "ShowGroup","Group")
+   
+</body>
+</html>

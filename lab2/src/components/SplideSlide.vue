@@ -37,6 +37,7 @@ data(){
       perPage : 1,
       gap: '5rem',
       focus : 'center',
+      type :'loop',
       
     },
 
