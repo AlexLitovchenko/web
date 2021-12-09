@@ -1,0 +1,12 @@
+/Users/admin/Projects/test/Testing/bin/Debug/net5.0/Testing.deps.json
+/Users/admin/Projects/test/Testing/bin/Debug/net5.0/Testing.dll
+/Users/admin/Projects/test/Testing/bin/Debug/net5.0/ref/Testing.dll
+/Users/admin/Projects/test/Testing/bin/Debug/net5.0/Testing.pdb
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.csproj.AssemblyReference.cache
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.AssemblyInfoInputs.cache
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.AssemblyInfo.cs
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.dll
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/ref/Testing.dll
+/Users/admin/Projects/test/Testing/obj/Debug/net5.0/Testing.pdb
