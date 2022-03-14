@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vZITxHDMqx3V8Fah5lq6oJ6ylywQxI4liyiEqYcEbE2lneTF+YWLQ5QzC93m7HWjv76Gk+G6ywHSljQgExlfeA==",
+  "dgSpecHash": "JDLvh3aSsklRBGkAM4tTccR88OgmjKImXdZ1hvhGeYW4h1TbsL1Jd8bH/HrQMYsU/bKTVED/DbNKsSiQpPrj0g==",
   "success": true,
-  "projectFilePath": "/Users/admin/Documents/GitHub/SPA/Spa_Test/Spa_Test.csproj",
+  "projectFilePath": "/Users/admin/Documents/GitHub/web/Spa/Spa_Test/Spa_Test.csproj",
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

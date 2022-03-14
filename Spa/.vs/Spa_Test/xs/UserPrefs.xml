@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{3ABFD77D-FF67-4FE7-BF8E-D6B8C8725130}|Default">
+  <MonoDevelop.Ide.ItemProperties.Spa__Test PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Spa_Test/Models/UnitDbContex.cs">
+    <Files>
+      <File FileName="Spa_Test/Models/Unit.cs" Line="23" Column="6" />
+      <File FileName="Spa_Test/Migrations/20211213133452_Create.cs" />
+      <File FileName="Spa_Test/Controllers/DUnitController.cs" />
+      <File FileName="Spa_Test/Controllers/UnitController.cs" />
+      <File FileName="Spa_Test/Models/UnitDbContex.cs" Line="1" Column="1" />
+      <File FileName="Spa_Test/Migrations/UnitDbContexModelSnapshot.cs" />
+      <File FileName="Spa_Test/appsettings.json" />
+      <File FileName="Spa_Test/Startup.cs" />
+      <File FileName="Spa_Test/Program.cs" />
+      <File FileName="Spa_Test/appsettings.Development.json" />
+      <File FileName="Spa_Test/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Spa_Test" expanded="True">
+            <Node name="Spa_Test" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="UnitDbContex.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
